@@ -1,3 +1,12 @@
-.canva{
- color: pink;
+.contenedorCanvas{
+    text-align: center;
 }
+canvas {
+    background-color: #FFF;
+    width: 1000px;
+    height: 700px;
+    border-radius: 4px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    
+  }

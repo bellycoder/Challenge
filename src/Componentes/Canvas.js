@@ -4,8 +4,9 @@ import './Canvas.css'
 export default class Canvas extends Component {
     render() {
         return (
-            <div className="canva">
-        
+            <div className="contenedorCanvas">
+                    <canvas id="canvas1" >
+                    </canvas>
             </div>
         )
     }
