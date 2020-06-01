@@ -1,12 +1,28 @@
-.contenedorCanvas{
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+body {
+  background-color: #67b3ca;
+  height: 100vh;   
 }
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  color: #FFF;
+  font-size: 35px;
+  text-align: center;
+}
+
+#contenedorCanvas{
+  text-align: center;
+}
+
 canvas {
-    background-color: #FFF;
-    width: 1000px;
-    height: 700px;
-    border-radius: 4px;
-    margin-top: 8%;
-    margin-bottom: 8%;
-    
-  }
+  background-color: rgb(49, 48, 48);
+  border: 5px solid;
+  border-color: #0a4b70;
+  border-radius: 4px;
+}
+
+#sizeCuadros{
+  width: 42px;
+}
