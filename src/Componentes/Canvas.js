@@ -86,10 +86,13 @@ export default class Canvas extends Component {
           
                 canvas.width = contenedor.offsetWidth - 400;
                 dibujaGrid(sizeCuadro.ancho, sizeCuadro.alto, 1, "#44414B");
-              } else {
-                alert("No se pudo cargar el contexto");
               }
             }
+
+           /* switch(current){
+              case (current == true && (vecino1 || vecino2 || vecino3)):
+                
+            }*/
           };
           
         return (
